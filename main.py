@@ -12,7 +12,7 @@ from streamlit_chat import message
 from utils import *
 import os
 
-st.subheader("Do not Fear, You,r gym bro's here!")
+st.subheader("Do not Fear, Your gym bro's here!")
 
 if 'responses' not in st.session_state:
     st.session_state['responses'] = ["What do you wanna know you?"]
