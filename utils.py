@@ -4,10 +4,10 @@ import openai
 import streamlit as st
 import os
 
-openai.api_key = os.environ["OPEN_AI_API_KEY"]
+openai.api_key = st.secrets["OPEN_AI_API_KEY"]
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-pinecone.init(api_key=os.environ["PINECONE_API_KEY"], environment='gcp-starter')
+pinecone.init(api_key=st.secrets["PINECONE_API_KEY"], environment='gcp-starter')
 index = pinecone.Index('statuscode0')
 
 
