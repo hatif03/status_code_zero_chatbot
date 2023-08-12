@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="C:\Users\mdhat\anaconda3\Scripts\black.exe" />
+    <option name="sdkUUID" value="e48cbccb-b295-4f9f-a65e-b0d90a3c3fed" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (chatbot) (2)" project-jdk-type="Python SDK" />
+</project>
