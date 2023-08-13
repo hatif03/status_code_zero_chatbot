@@ -1,4 +1,4 @@
-# status_code_zero_chatbot
+# StatusCode0 Chatbot
 
 
 This chatbot has been trained on data pertaing to health and fitness guidelines and recommendations from multiple coaches and institution of emminence.
