@@ -8,7 +8,7 @@ openai.api_key = st.secrets["OPEN_AI_API_KEY"]
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 pinecone.init(api_key=st.secrets["PINECONE_API_KEY"], environment='gcp-starter')
-index = pinecone.Index('statuscode0')
+index = pinecone.Index('gym-data')
 
 
 def find_match(input):
